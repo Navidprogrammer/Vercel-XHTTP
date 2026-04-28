@@ -1,3 +1,29 @@
+/**
+* dsfsdfsdfdsfsdkmrfouiasdnrfuoiaenwsorfnasornoaw4r5ownaofuraw
+* rfa
+* srf
+* as
+* rfdas
+* rf
+* asrft
+* as
+* trfa
+* strf
+* aesd
+* trgedr
+*
+*/
+{
+  "version": 2,
+  "name": "vercel-xhttp-relay",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
+}
+
+
+
 export const config = { runtime: "edge" };
 
 const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
@@ -60,3 +86,19 @@ export default async function handler(req) {
     return new Response("Bad Gateway: Tunnel Failed", { status: 502 });
   }
 }
+/**
+* dsfsdfsdfdsfsdkmrfouiasdnrfuoiaenwsorfnasornoaw4r5ownaofuraw
+* rfa
+* srf
+* as
+* rfdas
+* rf
+* asrft
+* as
+* trfa
+* strf
+* aesd
+* trgedr
+*
+*/
+
